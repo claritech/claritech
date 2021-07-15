@@ -24,4 +24,19 @@ Setting up a digital wall through raspberry pi
 
 1. pishop.co.za
 2. PI4 with mini HDMI, wifi and bluetooth
-3. 
+3. Load PI with already loaded rasbian desktop
+4. Configure PI on initial load 
+5. terminal --> sudo raspi-config --> setup 1. system options --> boot login --> desktop GUI logged in as PI user
+6. terminal --> sudi raspi-config --> setup 8. update
+7. sudo apt-get install xdotool unclutter sed
+8. sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+9. sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/pi/.config/chromium/Default/Preferences
+10. sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium/Default/Preferences
+11. /usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk https://www.google.com
+12. sudo nano /boot/config.txt --> disable overscan
+13. sudo nano /boot/config.txt --> add disable_splash=1 at the bottom
+14. sudo nano /boot/cmdline.txt --> silent quiet splash loglevel=0 logo.nologo vt.global_cursor_default=0, replace console=tty1 with console=tty3 at end of line
+15. Remove waste paper basket from desktop
+16. Hide banner --> panel settings
+17. Load background image --> right click background
+18. 

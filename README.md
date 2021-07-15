@@ -18,3 +18,10 @@ Highlights
  
 2. Website advanced settings
  - Limit connection timeout: 0
+
+
+Setting up a digital wall through raspberry pi
+
+1. pishop.co.za
+2. PI4 with mini HDMI, wifi and bluetooth
+3. 

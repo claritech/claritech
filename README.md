@@ -39,4 +39,5 @@ Setting up a digital wall through raspberry pi
 15. Remove waste paper basket from desktop
 16. Hide banner --> panel settings
 17. Load background image --> right click background
-18. 
+
+
